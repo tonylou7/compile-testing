@@ -82,7 +82,7 @@ final class Breadcrumbs {
 
     /** Returns a {@code String} describing the {@code Tree.Kind} of the given {@code Tree}. */
     private String kindString(Tree t) {
-      return t.getKind().toString();
+      return t.getKind().toString() + "";
     }
 
     /**
